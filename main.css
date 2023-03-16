@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:"Crimson Text", serif;
+}
+
+body{
+    color: white;
+    background-color: black;
+}   
+
+.header{
+    padding: 2rem;
+    margin:  1rem 0px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+header> .title{
+    margin-bottom: 1rem;
+}
+
+.tribute{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    align-items: center;
+    color: black;
+    background-color: white;
+    padding: 0px 0px 0px 1rem;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+img{
+    border-radius: 4px;
+    height: auto;
+    width: 100%;
+}
+
+.bio{
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+
+.bio> h2{
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.bio> p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.bio> hr{
+    margin-top: 1rem;
+}
